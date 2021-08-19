@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Weather Dashboard</title>
+  </head>
+  <body>
+    <header>
+      <h1>Weather Dashboard</h1>
+    </header>
+
+    <Side-bar class="sidebar">
+      <h1>Search for a City:</h1>
+      <input type="text" placeholder="San Diego" />
+
+      <ul>
+        <li><button>Search</button></li>
+        <li><button>Austin</button></li>
+        <li><button>Chicago</button></li>
+        <li><button>New York</button></li>
+        <li><button>Orlando</button></li>
+        <li><button>San Francisco</button></li>
+        <li><button>Seattle</button></li>
+        <li><button>Denver</button></li>
+        <li><button>Atlanta</button></li>
+      </ul>
+    </Side-bar>
+
+    <main>
+      <h1></h1>
+      <section>
+        <div>City: <span class="city-name"></span></div>
+        <div>Date: <span class="current-date"></span></div>
+        <div>icon for weather</div>
+        <div>Current Temperature: <span class="current-temp"></span></div>
+        <div>Humidity: <span class="current-hum"></span></div>
+        <div>Wind Speed: <span class="wind-speed"></span></div>
+        <div>UV Index <span class="UVI"></span></div>
+      </section>
+    </main>
+
+    <script src="./Assets/script.js"></script>
+  </body>
+</html>

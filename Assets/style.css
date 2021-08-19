@@ -1,0 +1,44 @@
+header {
+    text-align: center;
+    border-bottom: black;
+    display: flex;
+    justify-content: center;
+    background-color: cadetblue;
+    background-image: -o-linear-gradient(lightblue,blue);
+}
+
+h1 {
+    padding-left: 15px;
+}
+
+
+.sidebar {
+    font-family: fantasy;
+    margin: 20px;
+}
+
+input {
+    text-align: left;
+    width: 215px;
+    margin-left: 17px;
+    height: 25px;
+    margin-bottom: 25px;
+}
+
+button {
+    color: black;
+    background-color: rgb(194, 187, 187);
+    border: none;
+    width: 222px;
+    height: 25px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 1px;
+    margin-left: 2%;
+}
+
+ul, li {
+    margin: 8px;
+}
