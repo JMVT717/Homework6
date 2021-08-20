@@ -15,6 +15,7 @@ h1 {
 .sidebar {
     font-family: fantasy;
     margin: 20px;
+    width: 222px;
 }
 
 input {
@@ -25,7 +26,7 @@ input {
     margin-bottom: 25px;
 }
 
-button {
+button{
     color: black;
     background-color: rgb(194, 187, 187);
     border: none;
@@ -41,4 +42,13 @@ ul {
 
 ul, li {
     margin: 8px;
+    list-style: none;
+}
+
+form, .button {
+    
+}
+
+main {
+    text-align: center;
 }
